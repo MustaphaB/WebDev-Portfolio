@@ -1,0 +1,35 @@
+body{
+	background-color: #607D8B;
+	font-family: 'Manjari', sans-serif;
+	font-size: 15px; 
+	color: #E0E0E0;
+}
+
+h1{
+	text-align: center;
+
+}
+
+.spacing{
+	line-height: 1.3em;
+	word-spacing: 2px;
+	padding-bottom: 15px;
+}
+
+p span {
+	display: block;
+	text-align: left;
+
+}
+
+section{
+	width: 300px;
+	margin:auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
