@@ -1,0 +1,25 @@
+p span {
+	display: block;
+
+}
+
+p span q {
+	font-weight: bold;
+	color: 	#e62e00;
+}
+
+body{
+	font-family: 'Manjari', sans-serif;
+	font-size: 15px; 
+}
+
+.spacing-after{
+	padding-bottom: 30px;
+}
+
+.spacing{
+	line-height: 1.3em;
+	word-spacing: 2px;
+	padding-bottom: 15px;
+}
+
