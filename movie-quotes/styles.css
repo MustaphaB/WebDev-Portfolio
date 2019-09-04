@@ -5,12 +5,14 @@ p span {
 
 p span q {
 	font-weight: bold;
-	color: 	#e62e00;
+	color: 	black;
 }
 
 body{
 	font-family: 'Manjari', sans-serif;
 	font-size: 15px; 
+	background-color: #607D8B;
+	color: #E0E0E0;
 }
 
 .spacing-after{
@@ -22,4 +24,16 @@ body{
 	word-spacing: 2px;
 	padding-bottom: 15px;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+section{
+	margin-left: 100px;
+}
+
 
