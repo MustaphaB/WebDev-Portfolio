@@ -1,0 +1,94 @@
+body{
+	/*background-color: #1E88E5;
+	color: white;*/
+}
+
+p{
+	font-size: 24px;
+	font-family: 'Crimson Text', serif;
+	margin:0;
+
+}
+
+.para{
+	margin:0;
+	
+}
+
+.headerStyle{
+	font-family: 'Crimson Text', serif;
+	font-size: 40px;
+	margin:0;
+
+}
+
+h2{
+	margin:0;
+	font-size: 32px;
+	margin-bottom: 15px;
+	color: grey;
+}
+h3{
+	font-size: 16px;
+	margin:0;
+	color: grey;
+}
+
+.margin{
+	margin-bottom: 20px;
+}
+
+.fwn{
+	font-weight: normal;
+}
+
+.fb{
+	font-weight: bold;
+}
+
+.fi{
+	font-style: italic;
+}
+.fsn{
+	font-style: normal;
+}
+
+.lsn{
+	letter-spacing: normal;
+}
+.ls3{
+	letter-spacing: .3em;
+}
+.ls6{
+	letter-spacing: -.06em;
+}
+
+.tdn{
+	text-decoration: none;
+}
+.tdu{
+	text-decoration: underline;
+}
+.tdl{
+	text-decoration: line-through;
+}
+.tdo{
+	text-decoration: overline;
+}
+.ttn{
+	text-transform: none;
+}
+.ttu{
+	text-transform: uppercase;
+}
+.ttl{
+	text-transform: lowercase;
+}
+.ttc{
+	text-transform: capitalize;
+}
+
+section{
+	display: block;
+	margin-bottom: 40px;
+}
