@@ -1,0 +1,48 @@
+body{
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px; 
+	color: #E0E0E0;
+}
+
+h1{
+	text-align: center;
+	letter-spacing: .7em;
+	text-transform: uppercase;
+
+}
+img{
+	background-color: grey;
+}
+
+.fwb{
+	font-weight: bold;
+}
+.fwi{
+	font-style: italic;
+}
+
+.spacing{
+	line-height: 1.3em;
+	word-spacing: 2px;
+	padding-bottom: 15px;
+}
+
+p span {
+	display: block;
+	text-align: left;
+
+}
+
+section{
+	width: 400px;
+	/*padding-left: 400px;*/
+	margin:auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
