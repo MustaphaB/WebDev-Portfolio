@@ -57,7 +57,7 @@ section.seasons  ul  li:last-of-type:before {
 }
 section.seasons:after{
 	content: "* Final Season";
-	font-size.7rem;
+	font-size: .7rem;
 	color: #999;
 }
 /*
