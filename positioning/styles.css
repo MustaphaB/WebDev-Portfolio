@@ -1,0 +1,39 @@
+
+.floatRight{
+	float: right;
+}
+.bottomRight{
+	position: absolute;
+	bottom:0;
+	right:0;
+}
+
+.realitvePosition{
+	position: relative;
+}
+
+.greenUpperRight{
+	position:fixed;
+	top:0;
+	right:0;
+	background-color:green;
+	z-index: 1111;
+
+}
+
+.red{
+	background-color: red;
+    position: absolute;
+    z-index: 1000;
+    left: 320px;
+    top: 200px;
+
+}
+
+.black{
+	left: 330px;
+    top: 210px;
+    background-color: black;
+    position: absolute;
+
+}
