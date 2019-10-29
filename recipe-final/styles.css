@@ -1,0 +1,131 @@
+body{
+  background-color: #B00020;
+  font-family: "IBM Plex Sans"
+
+
+}
+
+h1 {
+  font-family: "IBM Plex Sans";
+  text-align: center;
+  margin: 0px;
+  margin-top: 40px;
+  margin-bottom: 35px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+h2{
+  font-family: "IBM Plex Mono";
+  font-size: 1.259em;
+  font-weight: normal;
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.history{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+
+h3 {
+  color: white;
+  font-family: "IBM Plex Mono";
+  font-size: 1em;
+  margin-bottom: 25px;
+}
+
+p{
+  margin-top: -11px;
+  line-height: 1.6em;
+  color: white;
+}
+
+h5{
+  text-align: center;
+  color:white;
+  font-size: 3em;
+}
+
+.cookie {
+  margin-left: 0px;
+  width: 100%;
+  height: auto;
+  margin-top:
+
+}
+
+.cookie2{
+  width: 100%;
+  height:auto;
+
+}
+
+@media only screen and (min-width: 601px) {
+  .cookie{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+   .cookie2{
+    display: none;
+  }
+}
+
+
+.content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ingredients{
+  color: white;
+  font-size: 1.6em;
+  font-family: "IBM Plex mono";
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  /*letter-spacing: .02em;*/
+  letter-spacing: 3px;
+}
+
+.directions{
+  color: white;
+  font-size: 1.7em;
+  font-family: "IBM Plex mono";
+  text-transform: uppercase;
+  margin-top: 200px;
+  margin-bottom: 40px;
+  letter-spacing: 3px;
+
+}
+
+
+
+.row {
+  margin-bottom: 50px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.boxes{
+  background-color: rgba(255, 255, 255, 0.4);
+  padding:20px;
+  line-height: normal;
+
+}
+.steps p{
+  color: lightgray;
+  font-weight: bold;
+}
+
