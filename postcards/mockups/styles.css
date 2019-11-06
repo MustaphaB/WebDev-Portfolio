@@ -1,0 +1,9 @@
+h1, h3{
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding: 30px;
+}
