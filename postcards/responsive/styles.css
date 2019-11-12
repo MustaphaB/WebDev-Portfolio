@@ -1,0 +1,83 @@
+
+body {
+	font-family: 'Georgia', sans-serif;
+	color: white;
+	box-sizing: border-box;
+	background-image: url(elon1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+a {
+     display: block; 
+     position: absolute;                                 
+     top: 0;
+     bottom: 0; 
+     left: 0; 
+     right: 0; 
+     z-index: 10; 
+}
+div .text {
+	position: absolute;
+	max-width: 45%;
+	top: 20%;
+	font-weight: normal;
+	padding-left: 2rem;
+	font-size: 2.2em;
+	left: 60%;
+	right: 15%;
+}
+div .elon {
+	margin-top: .5rem;
+	margin-left: .5rem;
+	font-style: italic;
+	font-size: 0.75em;
+}
+
+@media (max-width: 900px) {
+	div .text {
+	position: absolute;
+	max-width: 45%;
+	top: 20%;
+	font-weight: normal;
+	padding-left: 2.5rem;
+	font-size: 1.7em;
+	left: 60%;
+
+	}
+
+	div .elon {
+		margin-top: .5rem;
+		margin-left: .5rem;
+		font-style: italic;
+		font-size: 0.6em;
+	}
+
+}
+
+@media (max-width: 700px) {
+	div .text {
+		position: absolute;
+		max-width: 45%;
+		top: 15%;
+		font-weight: normal;
+		padding-left: 2.5rem;
+		font-size: 1.5em;
+		left: 55%;
+		right: 10%
+	}
+
+	div .elon {
+		margin-top: .5rem;
+		margin-left: .5rem;
+		font-style: italic;
+		font-size: 0.6em;
+	}
+
+}
+
+
+
+
