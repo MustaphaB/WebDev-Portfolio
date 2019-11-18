@@ -1,0 +1,10 @@
+div{
+	display: block;
+}
+
+img{
+	box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+    width: 75%;
+
+}
