@@ -1,6 +1,8 @@
 body, html{
+	width: 100%;
 	height: 100%;
 	margin: 0;
+	overflow-x:hidden;
 	font-family: 'PT Sans', sans-serif;
 }
 
@@ -66,9 +68,9 @@ body, html{
 }
 
 .title{
-	position:absolute;
+	position:relative;
 	top:35%;
-	right: 4%;
+	right: -78%;
 	color: white;
 	font-size: 75px;
 	line-height: 10px;
