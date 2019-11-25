@@ -1,0 +1,223 @@
+body, html{
+	height: 100%;
+	margin: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.homePage{
+  background-image: url("photos/homepage.jpg");
+
+  /* Full height */
+  height: 100%; 
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about{
+  background-image: url("photos/about.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.ethics{
+  background-image: url("photos/ethics1.jpg");
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.history{
+  background-image: url("photos/timeline.jpg");
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.impact{
+  background-image: url("photos/impact2.jpg");
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.title{
+	position:absolute;
+	top:35%;
+	right: 4%;
+	color: white;
+	font-size: 75px;
+	line-height: 10px;
+	text-shadow: -5px 2px 5px white;
+
+}
+
+.aboutTitle{
+	position:relative;
+	top:-2%;
+	left: 30%;
+	color: white;
+	font-size: 40px;
+	line-height: 10px;
+	letter-spacing: 5px;
+
+
+}
+
+.aboutPara{
+	background-color:rgba(100,100,100,.9);
+	width: 45%;	
+	height:50%; 
+	position: relative;
+	top:-3%; 
+	left: 30%;
+	padding: 20px
+}
+
+.h{
+	color: white;
+	font-size: 20px;
+}
+
+.aboutPara1{
+	color: white; 
+	font-size: 23px;
+}
+
+.aboutPara2{
+	color: white; 
+	font-size: 23px; 
+	padding-top: 30px;
+}
+
+.ethicsTitle{
+	position:relative;
+	top:-2%;
+	left: 3%;
+	color: white;
+	font-size: 40px;
+	line-height: 10px;
+	letter-spacing: 5px;
+
+
+}
+
+
+.ethicsPara{
+	background-color:rgba(100,100,100,.9);
+	width: 55%;	
+	height:55%; 
+	position: relative;
+	top:-3%; 
+	left: 3%;
+	padding: 20px;
+}
+
+.title p{
+	letter-spacing: 3px;
+}
+
+
+.impactTitle{
+	position:relative;
+	top:12%;
+	left: 35%;
+	color: white;
+	font-size: 40px;
+	line-height: 10px;
+	letter-spacing: 5px;
+
+
+}
+
+.impactPara{
+	background-color:rgba(100,100,100,.9);
+	width: 60%;	
+	height:55%; 
+	position: relative;
+	top:11%; 
+	left: 35%;
+	padding: 20px;
+}
+
+.historyTitle{
+	position:relative;
+	top:-2%;
+	left: 46%;
+	color: white;
+	font-size: 40px;
+	line-height: 10px;
+	letter-spacing: 5px;
+
+
+}
+
+.historyPara{
+	background-color:rgba(100,100,100,.7);
+	width: 65%;	
+	height:55%; 
+	position: relative;
+	top:2%; 
+	left: 15%;
+	padding: 20px;
+	column-count: 2;
+
+}
+
+
+nav{
+	text-align: right;
+	padding-right: 50px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+  top: 0;
+  width: 100%;
+
+}
+
+li {
+ /*float: right;*/
+ display: inline-block;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 30px;
+}
