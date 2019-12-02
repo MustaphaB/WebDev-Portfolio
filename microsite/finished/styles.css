@@ -1,0 +1,379 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	overflow-x:hidden;
+	/*font-family: 'PT Sans', sans-serif;*/
+}
+
+.homePage{
+  background-image: url("photos/homepage.jpg");
+
+  /* Full height */
+  height: 100%; 
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about{
+  background-image: url("photos/about.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.ethics{
+  background-image: url("photos/ethics1.jpg");
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.history{
+  background-image: url("photos/timeline.jpg");
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.impact{
+  background-image: url("photos/impact2.jpg");
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.title{
+	position: relative;
+    top: 42%;
+    right: -61%;
+    color: white;
+    font-size: 68px;
+    line-height: 10px;
+
+}
+
+.aboutTitle{
+	position:relative;
+	top:-2%;
+	left: 11%;
+	color: white;
+	font-size: 40px;
+	line-height: 10px;
+	letter-spacing: 5px;
+	font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+.aboutPara{
+	background-color: rgba(100,100,100,.9);
+    width: 71%;
+    height: 38%;
+    position: relative;
+    top: -3%;
+    left: 11%;
+    padding: 20px;
+}
+
+.h{
+	color: white;
+	font-size: 19px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.aboutPara1{
+	color: white; 
+	font-size: 19px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.aboutPara2{
+	color: white; 
+	font-size: 19px; 
+	padding-top: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.ethicsTitle{
+	position:relative;
+	top:-2%;
+	left: 3%;
+	color: white;
+	font-size: 40px;
+	line-height: 10px;
+	letter-spacing: 5px;
+	font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+
+.ethicsPara{
+	background-color:rgba(100,100,100,.9);
+	width: 76%;
+    height: 50%;
+	position: relative;
+	top:-3%; 
+	left: 3%;
+	padding: 20px;
+}
+
+.title p{
+	letter-spacing: 3px;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.impactTitle{
+	position: relative;
+    top: 9%;
+    left: 26%;
+    color: white;
+    font-size: 40px;
+    line-height: 10px;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+.impactPara{
+	background-color: rgba(100,100,100,.9);
+    width: 67%;
+    height: 51%;
+    position: relative;
+    top: 8%;
+    left: 26%;
+    padding: 20px;
+}
+
+.historyTitle{
+	position: relative;
+    top: 0%;
+    left: 39%;
+    color: white;
+    font-size: 40px;
+    line-height: 10px;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+.historyPara{
+	background-color: rgba(100,100,100,.7);
+    width: 91%;
+    height: 76%;
+    position: relative;
+    top: -2%;
+    left: 3%;
+    padding: 20px;
+	/*column-count: 2;*/
+
+}
+
+
+nav{
+	text-align: right;
+	padding-right: 50px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+  top: 0;
+  width: 100%;
+
+}
+
+li {
+ /*float: right;*/
+ display: inline-block;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-device-width: 375px){
+	li a{
+		display: none;
+	}
+	.aboutPara1{
+		font-size: 16px;
+
+	}
+	.aboutPara2{
+		font-size: 16px;
+	}
+	.title{
+		top: 3%;
+		right: -11%;
+	}
+	.aboutTitle{
+		top: -3%;
+    	left: 25%;
+	}
+	.aboutPara{
+		height: 49%;
+	}
+	.historyTitle{
+		top: -2%;
+    	left: 25%;
+
+	}
+	.historyPara{
+		width: 84%;
+    	height: 79%;
+	}
+	.h{
+		font-size: 14px;
+	}
+	.ethicsPara{
+		height: 64%;
+	}
+	.impactTitle{
+		top: -2%;
+	}
+	.impactPara{
+		top:-2%;
+		height: 78%;
+		left: 13%;
+	}
+
+
+
+
+}
+
+@media only screen and (min-device-width: 450px) and (max-device-width: 630px)  {
+	li a{
+		font-size: 18px;
+	}
+	.aboutPara1{
+		font-size: 17px;
+
+	}
+	.aboutPara2{
+		font-size: 17px;
+	}
+	.title{
+		right: -29%;
+	}
+	.aboutTitle{
+		left: 7%;
+	}
+	.aboutPara{
+		height: 61%;
+	}
+	.historyTitle{
+		left: 30%;
+		top: -2%;
+
+	}
+	.historyPara{
+		width: 85%;
+    	height: 78%;
+	}
+	.h{
+		font-size: 15px;
+	}
+	.ethicsPara{
+		height: 73%;
+	}
+	.impactTitle{
+		top:-1%;
+	}
+	.impactPara{
+		top:-2%;
+		height: 66%;
+	}
+
+
+      /* For portrait layouts only */
+ }
+
+ @media only screen and (min-device-width: 631px) and (max-device-width: 750px)  {
+	li a{
+		font-size: 22px;
+	}
+	.aboutPara1{
+		font-size: 20px;
+
+	}
+	.aboutPara2{
+		font-size: 20px;
+	}
+	.title{
+		right: -49%;
+	}
+	.aboutPara{
+		height: 46%;
+	}
+/*	.historyTitle{
+		left: 30%;
+		top: -2%;
+
+	}*/
+/*	.historyPara{
+		width: 85%;
+    	height: 78%;
+	}*/
+	.h{
+		font-size: 16px;
+	}
+	.ethicsPara{
+		height: 57%;
+	}
+	.impactTitle{
+		top:4%;
+	}
+	.impactPara{
+		height: 75%;
+		top:3%;
+	}
+
+
+      /* For portrait layouts only */
+ }
